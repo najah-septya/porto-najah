@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio - Najah</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Background Glow Effects -->
+  <div class="glow-bg glow-1"></div>
+  <div class="glow-bg glow-2"></div>
+
+  <!-- Header / Navbar -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">
+        <span>Najah</span>.dev
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#hero" class="nav-link active">Beranda</a>
+        <a href="#tentang" class="nav-link">Tentang</a>
+        <a href="#keahlian" class="nav-link">Keahlian</a>
+        <a href="#projek" class="nav-link">Projek</a>
+        <a href="#kontak" class="nav-link">Kontak</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#kontak" class="btn btn-sm btn-primary">Hubungi Saya</a>
+        <button class="mobile-toggle" id="menuToggle" aria-label="Toggle Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge">
+            <span class="badge-dot"></span> Siap Berkolaborasi & Belajar Hal Baru
+          </div>
+          <h1 class="hero-title">
+            Halo, saya <span class="gradient-text">Najah</span> 👋
+          </h1>
+          <p class="hero-subtitle">
+            Web Developer & Creative Enthusiast yang berfokus membangun website yang cepat, interaktif, dan mudah digunakan. Senang mengeksplorasi teknologi web modern.
+          </p>
+          <div class="hero-cta">
+            <a href="#projek" class="btn btn-primary">
+              <i class="fa-solid fa-layer-group"></i> Lihat Projek
+            </a>
+            <a href="#kontak" class="btn btn-secondary">
+              <i class="fa-regular fa-paper-plane"></i> Kontak
+            </a>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="mailto:emailanda@example.com" aria-label="Email">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-card-wrapper">
+          <div class="profile-card">
+            <div class="avatar-box">
+              <div class="avatar-placeholder">
+                <i class="fa-solid fa-user-astronaut"></i>
+              </div>
+            </div>
+            <div class="profile-info">
+              <h3>Najah</h3>
+              <p>Frontend Developer Trainee</p>
+            </div>
+            <div class="profile-stats">
+              <div class="stat-item">
+                <span class="stat-number">3+</span>
+                <span class="stat-label">Projek</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Semangat</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">Vercel</span>
+                <span class="stat-label">Ready</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="tentang" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Profil</span>
+          <h2 class="section-title">Tentang Saya</h2>
+          <p class="section-desc">Mengenal lebih dekat perjalanan dan minat saya di dunia digital.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-card">
+            <h3>Membangun Pengalaman Digital yang Menarik</h3>
+            <p>
+              Saya adalah seorang antusias teknologi yang saat ini sedang aktif mendalami pembuatan website modern dan deployment ke cloud platform seperti Vercel. 
+            </p>
+            <p>
+              Saya senang mengubah ide kreatif menjadi tampilan halaman web yang responsif, rapi, dan mudah dinavigasi oleh pengguna di berbagai perangkat.
+            </p>
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <i class="fa-solid fa-check"></i> Desain Responsif (HP & Laptop)
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-check"></i> Kode Bersih & Terstruktur
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-check"></i> Siap Belajar Framework Baru
+              </div>
+            </div>
+          </div>
+
+          <div class="about-quick-facts">
+            <div class="fact-card">
+              <i class="fa-solid fa-laptop-code"></i>
+              <div>
+                <h4>Fokus Utama</h4>
+                <p>Frontend Web Development</p>
+              </div>
+            </div>
+            <div class="fact-card">
+              <i class="fa-solid fa-cloud-arrow-up"></i>
+              <div>
+                <h4>Deployment Target</h4>
+                <p>Vercel & Git-based CI/CD</p>
+              </div>
+            </div>
+            <div class="fact-card">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <h4>Lokasi</h4>
+                <p>Indonesia (WIB)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="keahlian" class="section section-dark">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Teknologi</span>
+          <h2 class="section-title">Keahlian & Tools</h2>
+          <p class="section-desc">Alat dan bahasa yang saya gunakan dalam membangun website.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon html">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <h4>HTML5</h4>
+            <p>Struktur halaman web semantik & terstandar.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon css">
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <h4>CSS3</h4>
+            <p>Styling modern, Flexbox, Grid, & animasi.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon js">
+              <i class="fa-brands fa-js"></i>
+            </div>
+            <h4>JavaScript</h4>
+            <p>Interaktivitas dinamis & manipulasi DOM.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon git">
+              <i class="fa-brands fa-git-alt"></i>
+            </div>
+            <h4>Git & GitHub</h4>
+            <p>Version control & kolaborasi repositori.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon vercel">
+              <i class="fa-solid fa-cloud"></i>
+            </div>
+            <h4>Vercel</h4>
+            <p>Fast hosting & automated static deployment.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon responsive">
+              <i class="fa-solid fa-mobile-screen"></i>
+            </div>
+            <h4>Responsive Design</h4>
+            <p>Tampilan optimal di layar ponsel hingga monitor.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projek" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Portofolio</span>
+          <h2 class="section-title">Projek Pilihan</h2>
+          <p class="section-desc">Beberapa projek latihan dan karya yang telah saya buat.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-banner bg-gradient-1">
+              <i class="fa-solid fa-store"></i>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Responsive</span>
+              </div>
+              <h3 class="project-title">Toko Online Sederhana</h3>
+              <p class="project-desc">
+                Landing page katalog produk dengan filter kategori, keranjang belanja interaktif, dan tampilan responsif.
+              </p>
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                <a href="#" class="project-link"><i class="fa-brands fa-github"></i> Kode</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-banner bg-gradient-2">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span>Vercel</span>
+                <span>JavaScript</span>
+                <span>UI/UX</span>
+              </div>
+              <h3 class="project-title">Website Portofolio Pribadi</h3>
+              <p class="project-desc">
+                Website portofolio yang ringan, cepat, dan di-deploy langsung ke Vercel untuk latihan dan showcase diri.
+              </p>
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                <a href="#" class="project-link"><i class="fa-brands fa-github"></i> Kode</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-banner bg-gradient-3">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span>Dashboard</span>
+                <span>CSS Grid</span>
+                <span>Modern</span>
+              </div>
+              <h3 class="project-title">Mini Dashboard Widget</h3>
+              <p class="project-desc">
+                Tampilan panel administrasi ringkas dengan kartu analitik, grafik sederhana, dan status ringkasan tugas.
+              </p>
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                <a href="#" class="project-link"><i class="fa-brands fa-github"></i> Kode</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontak" class="section section-dark">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Terhubung</span>
+          <h2 class="section-title">Mari Berdiskusi</h2>
+          <p class="section-desc">Punya pertanyaan, tawaran projek, atau sekadar ingin bertukar sapa? Kirimkan pesan!</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <p>najah@example.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+              <div>
+                <h4>WhatsApp</h4>
+                <p>+62 812-xxxx-xxxx</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div>
+                <h4>Domisili</h4>
+                <p>Indonesia</p>
+              </div>
+            </div>
+
+            <div class="contact-note">
+              <p>💡 <em>Tips:</em> Kamu bisa mengganti teks nomor HP dan email di file <code>index.html</code> sesuai data aslimu.</p>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Nama Lengkap</label>
+              <input type="text" id="name" placeholder="Masukkan nama kamu" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Alamat Email</label>
+              <input type="email" id="email" placeholder="nama@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Pesan</label>
+              <textarea id="message" rows="4" placeholder="Tuliskan pesanmu di sini..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              <i class="fa-solid fa-paper-plane"></i> Kirim Pesan
+            </button>
+            <div id="formStatus" class="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>© 2026 Najah. Dibuat untuk latihan deployment Vercel.</p>
+      <div class="footer-links">
+        <a href="#hero">Kembali ke Atas <i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom Script -->
+  <script src="script.js"></script>
+</body>
+</html>
+
